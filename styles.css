@@ -1,0 +1,128 @@
+* {
+    padding: 0%;
+    margin: 0%;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: montserrat;
+}
+
+nav {
+    background: rgb(187, 202, 228);
+    height: 80px;
+    width: 100%;
+}
+
+label.logo {
+    color: rgb(69, 113, 74);
+    font-size: 38px;
+    line-height: 80px;
+    padding: 0 100px;
+    font-size: bold;
+}
+
+.flex-container {
+    float: right;
+    /* solo asi me queda bien */
+    margin: 20px;
+    /* igual que arriba solo asi me queda bien */
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    margin-right: 20px;
+}
+
+.flex-item {
+    padding: 10px;
+    font-weight: bold;
+    font-size: 1.2rem;
+    /* es la medida de las letras */
+    display: flex;
+}
+
+.main-section2 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    height: 500px;
+    margin: 10px 0px 10px 0px;
+    text-align: center;
+    font-size: 1.4rem;
+}
+
+.images-brands img {
+    text-align: center;
+    width: 800px;
+    height: 300px;
+}
+
+.main-section2 {
+    padding: 200px 110px;
+}
+
+.main-section3 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    background: rgba(81, 95, 130, 0.728);
+    height: 100px;
+    margin: 10px 0px 10px 0px;
+    text-align: center;
+    padding: 35px;
+    font-size: 3rem;
+    color: white;
+}
+
+.images-brands {}
+
+.Controller {
+    text-align: center;
+}
+
+.controller-text {
+    font-size: 1.4rem;
+    height: 400px;
+    padding: 30px;
+}
+
+.controller-text h2 {
+    padding: 5px;
+}
+
+.controller-text h3 {
+    padding: 5px;
+}
+
+.controller-text p {
+    margin: 40px;
+}
+
+.controller-flex {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 200px;
+}
+
+.controller-flex img {
+    margin: 10px;
+    width: 120px;
+    height: 120px;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20%;
+    grid-template-rows: 20% 20%;
+}
+
+.container1 {
+    display: grid;
+    gap: 10px;
+}
+
+.description {
+    text-align: center;
+}
